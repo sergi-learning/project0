@@ -47,7 +47,7 @@ function remove(n) {
 
 function newTodo() {
   let newTodo = prompt('Enter new TODO')
-  if (newTodo != '') {
+  if (newTodo !== '') {
      todoList.addTodo(newTodo)
   }
   refresh()
